@@ -38,7 +38,7 @@ This code demonstrates the development of a stroke prediction model using machin
 
 4. Send POST requests to "/predict" with input data in JSON format to receive stroke predictions.
 
-5. The trained XGBoost model should be stored in "model_tree.pkl" and loaded automatically when the FastAPI service starts.
+5. The trained XGBoost model should be stored in "model_tree.pkl" and loaded automatically when FastAPI service starts.
 
 ## Example Usage
 You can use the following example JSON data to make predictions through the API endpoint:
