@@ -30,7 +30,7 @@ This code demonstrates the development of a stroke prediction model using machin
    - The API accepts input data in JSON format and returns predictions.
 
 ## Running the Code
-1. Install the required libraries mentioned in your code, such as `pandas`, `scikit-learn`, `xgboost`, `seaborn`, `fastapi`, and `colabcode`.
+1. Install the required libraries mentioned in the code, such as `pandas`, `scikit-learn`, `xgboost`, `seaborn`, `fastapi`, and `colabcode`.
 
 2. Execute the code in a Python environment.
 
