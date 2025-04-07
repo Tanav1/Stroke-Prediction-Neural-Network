@@ -15,14 +15,12 @@ This code demonstrates the development of a stroke prediction model using machin
 3. **Model Training and Hyperparameter Tuning:**
    - Hyperparameter tuning is carried out using `GridSearchCV` to optimize an XGBoost model.
    - The best hyperparameters are used to train the XGBoost model.
+   - A custom neural network is also trained using Keras.
    - Naive Bayes and another XGBoost model are also trained for comparison.
 
 4. **Model Evaluation:**
    - The models are evaluated using metrics like Mean Squared Error (MSE) and accuracy score.
    - Confusion matrices are plotted using `seaborn` to visualize the model performance.
-
-5. **Model Serialization:**
-   - The best XGBoost model is serialized using `pickle` and saved as "model_tree.pkl."
 
 6. **FastAPI Web Service:**
    - A FastAPI web service is created to provide predictions.
@@ -30,7 +28,7 @@ This code demonstrates the development of a stroke prediction model using machin
    - The API accepts input data in JSON format and returns predictions.
 
 ## Running the Code
-1. Install the required libraries mentioned in the code, such as `pandas`, `scikit-learn`, `xgboost`, `seaborn`, `fastapi`, and `colabcode`.
+1. Install the required libraries mentioned in the code, such as `keras`, `pandas`, `scikit-learn`, `xgboost`, `seaborn`, `fastapi`, and `colabcode`.
 
 2. Execute the code in a Python environment.
 
