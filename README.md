@@ -1,4 +1,4 @@
-# Stroke Prediction Model using FastAPI
+# Stroke Risk Modeling: Convolutional Networks and XGBoost with REST API
 
 ## Overview
 This code demonstrates the development of a stroke prediction model using machine learning and the deployment of the model as a FastAPI web service. The model is trained on a dataset with various health-related features to predict the likelihood of a stroke occurrence.
